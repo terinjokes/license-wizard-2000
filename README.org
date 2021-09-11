@@ -1,0 +1,21 @@
+#+TITLE: License Wizard 2000
+
+Alright, let's get the Clojure requirement of irrelevant quote over with.
+
+#+BEGIN_QUOTE
+There's a time for daring and there's a time for caution, and a wise man understands which is called for.
+---John Keating, Dead Poets Society
+#+END_QUOTE
+
+License Wizard 2000 is a demo application showcasing using ClojureScript and re-frame to power a React-based web application. This demo application fetches licenses from the [[https://docs.github.com/en/rest/reference/licenses][GitHub License API]], allowing for them to be read.
+
+The web application currently has the following features:
+
+- licenses are fetched when selected 📖
+- dark mode 🌘
+
+Future enhancements include:
+
+- adding click to copy
+- adding support for license tl;drs
+- linking to [[https://choosealicense.com/][Choose a License]] and [[https://tldrlegal.com/][TLDRLegal]]
